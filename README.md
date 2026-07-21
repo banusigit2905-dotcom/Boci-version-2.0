@@ -1,11 +1,27 @@
-<div align="center">
+# OKTSHOP17 Reseller Portal (Android Native App)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A native Android application built with **Kotlin**, **Jetpack Compose**, and **Room Database**, rewritten from the original OKTSHOP17 web portal.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+### Reseller Module
+- **Reseller Dashboard**: Displays stat cards for total items ordered, total spending, and current point balance.
+- **Product Ordering**: Browse catalog by category, add items to cart, select customer details & payment method, and send order directly via WhatsApp.
+- **Point Redemption**: Multi-step point exchange system with status tracking.
+- **Leaderboard**: Top 10 active resellers ranked by spending and points.
+- **Returns & Complaints**: Submit product returns or complaint reports and track resolution status.
+- **Account Profile**: Manage name and WhatsApp contact details.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Admin Module
+- **Admin Dashboard**: Overview of orders, omset revenue, and issued points.
+- **Account Activation**: Review pending reseller signups with auto-generated custom IDs and activate accounts.
+- **Point Redemptions**: Manage incoming point redemption requests.
+- **Catalog Management**: Add, edit, or remove products and manage prices/categories.
+- **Global Rankings**: Full leaderboard of all registered resellers.
+- **Returns & Complaints Management**: Process and resolve incoming returns and complaints.
 
-</div>
+## Tech Stack
+- **Language**: Kotlin
+- **UI Framework**: Jetpack Compose & Material Design 3
+- **Local Persistence**: Room Database (SQLite) + Coroutines Flow
+- **Architecture**: MVVM with Repository Pattern

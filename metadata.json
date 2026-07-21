@@ -1,0 +1,6 @@
+{
+  "name": "OKTSHOP17 Reseller Portal",
+  "description": "Portal Reseller OKTSHOP17 untuk order produk, poin, retur, keluhan, dan manajemen admin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
